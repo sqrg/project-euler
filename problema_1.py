@@ -2,7 +2,8 @@ def es_multiplo_de(n, m):
     """
     Devuelve True si n es multiplo de m
     """
-    return n%m==0
+
+    return n%m ==  0
 
 lista = []
 for n in range(1000):
